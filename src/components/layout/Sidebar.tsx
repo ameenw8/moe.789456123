@@ -13,7 +13,6 @@ import {
   Menu,
   X,
 } from 'lucide-react';
-import palvisionLogo from '@/assets/palvision-logo.png';
 import { cn } from '@/lib/utils';
 
 interface NavItem {
@@ -125,3 +124,4 @@ export function Sidebar() {
     </>
   );
 }
+
