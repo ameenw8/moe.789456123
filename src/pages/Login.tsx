@@ -112,7 +112,7 @@ export default function Login() {
           <div className="absolute top-1/2 right-1/3 size-24 border border-sidebar-primary/30 rounded-lg rotate-45" />
         </div>
         <div className="relative z-10 text-center">
-          <img src={palvisionLogo} alt="Palestinian Vision" className="h-24 object-contain mx-auto mb-8 brightness-0 invert" />
+          
           <h2 className="text-2xl font-bold text-sidebar-foreground mb-3">نظام إدارة المشاريع</h2>
           <p className="text-sm text-sidebar-foreground/60 leading-relaxed max-w-xs mx-auto">
             نظام متكامل لإدارة المشاريع المجتمعية والمتطوعين والشراكات
@@ -122,4 +122,5 @@ export default function Login() {
     </div>
   );
 }
+
 
