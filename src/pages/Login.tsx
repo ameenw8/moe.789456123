@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Eye, EyeOff, AlertCircle } from 'lucide-react';
-import palvisionLogo from '@/assets/palvision-logo.png';
 
 export default function Login() {
   const [username, setUsername] = useState('');
@@ -123,3 +122,4 @@ export default function Login() {
     </div>
   );
 }
+
