@@ -46,9 +46,7 @@ export function Sidebar() {
     <>
       {/* Logo area */}
       <div className="h-16 flex items-center justify-between gap-3 px-5 border-b border-sidebar-border">
-        <div className="flex items-center gap-3">
-          <img src={palvisionLogo} alt="Palestinian Vision" className="h-9 object-contain brightness-0 invert" />
-        </div>
+        
         <button className="lg:hidden text-sidebar-foreground/70" onClick={() => setMobileOpen(false)}>
           <X className="size-5" />
         </button>
@@ -124,4 +122,5 @@ export function Sidebar() {
     </>
   );
 }
+
 
